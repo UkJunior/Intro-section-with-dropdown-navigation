@@ -36,12 +36,8 @@ main {
 
 .header {
   width: 100%;
-  /* min-height: 70px; */
-  /* max-width: 72.3em; */
   margin: 0 auto;
-  /* border: 1px solid; */
   display: flex;
-  /* justify-content: space-between; */
   padding: 1em 0em;
   gap: 0.8em;
   position: fixed;
@@ -55,36 +51,27 @@ main {
 
 .logo {
   width: 7em;
-  /* height: 80px; */
   padding: 0 1em;
   margin: 0 1.2em;
 }
 
 .collapsible-container {
-  /* float: right; */
   display: flex;
   justify-content: space-between;
   align-items: center;
   width: 100%;
-  /* min-width: 50em; */
   padding-right: 2.4em;
-  /* margin-left: 1.5em; */
-  /* gap: 31em; */
 }
-
 
 .collapsible {
   display: flex;
   justify-content: center;
-  /* border: 1px solid; */
   align-items: center;
   gap: 1.5em;
 }
 
 .header h4 {
   font-size: 1rem;
-  /* border: 1px solid hotpink; */
-
   font-weight: 500;
 }
 
@@ -197,8 +184,6 @@ main {
 
 .Hero {
   display: flex;
-  /* width: 100%; */
-  /* margin: 0 auto; */
   padding: 4.5em 3em;
 }
 
@@ -326,71 +311,37 @@ main {
     display: block; 
    width: 1.5em;
    float: right; 
-   /* margin-right: 0.1em; 
-    */
     margin: 1.5em  1em;
- }
-
- .close-icon-menu {
-   /* width: 1.5em; */
  }
 
   .collapsible-container {
     display: none;
     justify-content: center;
-    /* border: 1px solid red; */
     position: absolute;
     margin-top: -1em;
     height: 100vh;
-    /* left: -31.2em; */
     background-color: var(--Almost-White);
     right: 0%;
-    /* float: right; */
     padding: 0;
     width: 20em;
-    /* min-width: -80px; */
   }
   
   .collapsible-container.active{
     display: block;
-    
   }
-  .collasped {
-    /* border: 1px solid red; */
-    /* display: flex; */
-    /* flex-direction: column; */
-    /* justify-content:start; */
-    /* gap: 2em; */
-    /* height: 100vh; */
-    /* align-items: center; */
-    /* position: absolute; */
-    /* max-width: 20em; */
-    /* left: 29.7em; */
-    /* min-height:55em;
-    background-color: var(--Almost-White); */
-    /* top: 0.1em; */
-  }
-
+  
   .collapsible {
     display: flex; 
     flex-direction: column; 
     align-items: flex-start;
-    /* border: 1px solid rgb(255, 238, 0);  */
-    /* display: none; */
-    /* display: block;  */
-    /* margin-top: 6em;  */
     padding: 0em 0em 1em 1.5em;
-    /* font-weight: 700;  */
     margin: 5em 0em 0em 0em; 
   }
 
   .dropdown-menu.active{
-    /* border: 1px solid seagreen; */
     position:relative;
-    /* float: right; */
     margin-top: -70px;
     margin-bottom: 40px;
-
     box-shadow: 0em 0em 0em 0em;
     border-radius: none;
     left: 19em;
@@ -400,11 +351,6 @@ main {
     margin-top: -50px;
     margin-bottom: 40px;
     left: -0.8em;
-  }
-
-  .collapsible h4{
-    /* margin-left: -3em; */
-    /* border:  1px solid rebeccapurple; */
   }
 
   .register-right {
@@ -427,9 +373,7 @@ main {
 
   .Hero {
     flex-direction: column-reverse;
-    /* align-items: center; */
-    /* border: 1px solid red; */
-    padding: 5em 0em;
+    padding: 5em 0;
   }
 
   .destop-image {
@@ -452,8 +396,6 @@ main {
   }
   
   .left-hero h1 {
-    /* font-size: 4rem; */
-    border: 1px solid;
     max-width: 10em;
     line-height: 0.9;
   }
@@ -466,10 +408,10 @@ main {
 
   .client-img {
     margin-top: 2em;
-    /* display: flex; */
-    align-items: center;
+    width: 100%;
+    padding-left: 1.2em;
     justify-content: center;
-    gap: 1em;
+    gap: 0.7em;
   }
 }
 
@@ -505,6 +447,7 @@ main {
   .close-icon-menu {
     margin: 2em 1em;
   }
+
   .collapsible-container {
     width: 15em;
   }
